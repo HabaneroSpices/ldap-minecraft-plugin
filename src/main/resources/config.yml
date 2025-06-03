@@ -1,0 +1,9 @@
+# LDAP Configuration
+ldap:
+  url: "ldap://your-ldap-server:389"
+  baseDn: "dc=example,dc=com"
+  userDn: "cn=admin,dc=example,dc=com"
+  password: "adminpassword"
+  userAttributeName: "minecraftUsername"  # Custom ldap attribute to filter for
+messages:
+  kickMessage: "Your username is not registered."

@@ -1,0 +1,15 @@
+name: LdapMinecraftPlugin
+version: '1.0-SNAPSHOT'
+main: com.habanero.ldapminecraftplugin.LdapMinecraftPlugin
+api-version: '1.21'
+commands:
+  ldapminecraft:
+    description: LDAP Minecraft Plugin commands
+    usage: /ldapminecraft [enable|disable|status]
+    permission: ldapminecraft.admin
+    permission-message: You don't have permission to use this command.
+
+permissions:
+  ldapminecraft.admin:
+    description: Allows use of LDAP Minecraft Plugin commands
+    default: op
